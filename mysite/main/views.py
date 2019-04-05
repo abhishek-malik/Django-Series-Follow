@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def homepage(request):
-	return HttpResponse("Wow this <strong>really</strong> works.".encode("utf-8"))
+	return HttpResponse("Wow this <strong>really</strong> works.")
